@@ -11,9 +11,8 @@ pipeline
                 {
                     try
                       {
-https://github.com/golu-24/Maven.git                         
-
-}
+                         https://github.com/golu-24/Maven.git
+                      }
                     catch (Exception e1)
                       {
                         mail bcc: '', body: 'Git Has failed to download the file', cc: '', from: '', replyTo: '', subject: 'Git Download Failed', to: 'Dev@gmail.com'
