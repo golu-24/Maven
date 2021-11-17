@@ -3,7 +3,7 @@ pipeline
     agent any
     stages
     {
-        stage('Continuous Download')
+        stage('Continuous Download Test')
         {
             steps
             {
@@ -23,7 +23,7 @@ pipeline
             }
         }    
             
-             stage('Continuous Build')
+             stage('Continuous Build Test')
         {
             steps
             {
@@ -42,7 +42,7 @@ pipeline
                 
             }
         }
-         stage('Continuous Deployment')
+         stage('Continuous Deployment Test')
         {
             steps
             {
@@ -61,7 +61,7 @@ pipeline
                 }
             }  
         }
-            stage('Continuous Testing')
+            stage('Continuous Testing Test')
         {
             steps
             {
@@ -82,7 +82,7 @@ pipeline
             }  
         }
                
-         stage('Continuous Delivery')
+         stage('Continuous Delivery Test')
         {
             steps
             {
